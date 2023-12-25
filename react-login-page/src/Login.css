@@ -4,21 +4,48 @@
   align-items: center;
   height: 100vh;
 }
-
+/* src/components/Login.css */
 .login-container {
-  text-align: center;
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 300px;
-  margin: 0 auto;
-  background-color: #fff; /* Optional: Add a background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #283c63; /* Dark blue background color */
 }
-.welcome-container {
-  text-align: center;
-  border: 1px solid #ccc;
+
+.login-box {
+  background-color: #ffffff; /* White login box */
   padding: 20px;
   border-radius: 8px;
-  background-color: #e0f7fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  text-align: center;
+}
+
+h2 {
+  color: #283c63; /* Dark blue text color */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50; /* Green button color */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.welcome-message {
+  text-align: center;
+  color: #ffffff; /* White text color */
 }

@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif; /* Change font family */
+  background-color: #ffffff; /* Change background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #ffffff; /* Change text color */
+}
+
+form {
+  background-color: #f0dbe3; /* Change form background color */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 450px; /* Adjust the form width as needed */
+}
+
+label {
+  display: block;
+  margin-left: 15px; /* Increase margin between label and input */
+  margin-bottom: 10px; /* Increase margin between label and input */
+  font-size: 16px; /* Increase font size */
+  color: #ffffff; /* Change label text color */
+}
+
+input {
+  width: 70%;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  border: 0px solid #f0dbe3; /* Change input border color */
+  border-radius: 8px;
+  font-size: 14px; /* Adjust font size */
+}
+
+button {
+  background-color: #ffffff; /* Change button background color */
+  color: #f0dbe3;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 175px; /* Adjust margin-left to move the button */
+  cursor: pointer;
+  font-size: 18px; /* Increase font size */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffffff; /* Change button hover color */
+}

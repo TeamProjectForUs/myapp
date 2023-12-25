@@ -1,14 +1,14 @@
-// src/App.js
+// src/components/Login.js
 import React, { useState } from 'react';
 import './Login.css';
 
-function Login() {
+const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
 
   const handleLogin = () => {
-    // Perform authentication logic here (e.g., check email and password)
+    // Implement your authentication logic here
     // For simplicity, this example just sets loggedIn to true if email and password are not empty
     if (email.trim() !== '' && password.trim() !== '') {
       setLoggedIn(true);
@@ -16,9 +16,9 @@ function Login() {
   };
 
   return (
-    <div className="Login">
+    <div className="login-container">
       {!loggedIn ? (
-        <div className="login-container">
+        <div className="login-box">
           <h2>Login</h2>
           <input
             type="email"
@@ -35,12 +35,12 @@ function Login() {
           <button onClick={handleLogin}>Login</button>
         </div>
       ) : (
-        <div className="welcome-container">
+        <div className="welcome-message">
           <h2>Welcome, {email}!</h2>
         </div>
       )}
     </div>
   );
-}
+};
 
 export default Login;
