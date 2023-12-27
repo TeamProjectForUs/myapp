@@ -12,7 +12,7 @@ body {
 }
 
 form {
-  background-color: #f0dbe3;
+  background-color: #f7dee1;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -40,7 +40,7 @@ input {
 
 button {
   background-color: #ffffff;
-  color: #ddb4c4;
+  color: #f7dee1;
   padding: 15px;
   border: none;
   border-radius: 8px;

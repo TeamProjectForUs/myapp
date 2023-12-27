@@ -1,10 +1,5 @@
-.Login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 /* src/components/Login.css */
+
 .login-container {
   display: flex;
   align-items: center;
@@ -17,7 +12,7 @@
   background-color: #f7dee1; /* White login box */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Subtle box shadow */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
   text-align: center;
 }
 
@@ -28,13 +23,15 @@ h2 {
 input {
   width: 100%;
   padding: 10px;
-  margin: 8px 0;
+  margin: 20px auto; /* Set top and bottom margins to auto */
   box-sizing: border-box;
+  border: none; /* Remove the border */
+  border-radius: 4px; /* Rounded corners */
 }
 
 button {
   background-color: #ffffff; /* Green button color */
-  color: rgb(252, 203, 203);
+  color: #f7dee1;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -42,7 +39,7 @@ button {
 }
 
 button:hover {
-  background-color: #e0b6bf; /* Darker green on hover */
+  background-color: #e9cbd2; /* Darker green on hover */
 }
 
 .welcome-message {
