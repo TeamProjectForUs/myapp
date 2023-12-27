@@ -40,7 +40,7 @@ input {
 
 button {
   background-color: #ffffff;
-  color: #f0dbe3;
+  color: #ddb4c4;
   padding: 15px;
   border: none;
   border-radius: 8px;
@@ -53,5 +53,5 @@ button {
 }
 
 button:hover {
-  background-color: #ffffff;
+  background-color: #e9cbd2; /* Change to a lighter pink on hover */
 }
