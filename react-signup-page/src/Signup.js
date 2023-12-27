@@ -1,5 +1,4 @@
 // Signup.js
-
 import React, { useState } from 'react';
 
 const Signup = () => {
@@ -24,7 +23,8 @@ const Signup = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="signup-form">
+      <h1 style={{ color: '#e04f63', textAlign: 'center' }}>Sign Up</h1> {/* Pink title */}
       <label>
         Name:
         <input type="text" name="name" value={formData.name} onChange={handleChange} />

@@ -1,54 +1,57 @@
 /* styles.css */
 
 body {
-  font-family: 'Roboto', sans-serif; /* Change font family */
-  background-color: #ffffff; /* Change background color */
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
-  color: #ffffff; /* Change text color */
+  color: #ffffff;
 }
 
 form {
-  background-color: #f0dbe3; /* Change form background color */
+  background-color: #f0dbe3;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  width: 450px; /* Adjust the form width as needed */
+  width: 450px;
 }
 
 label {
   display: block;
-  margin-left: 15px; /* Increase margin between label and input */
-  margin-bottom: 10px; /* Increase margin between label and input */
-  font-size: 16px; /* Increase font size */
-  color: #ffffff; /* Change label text color */
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center; /* Center the label text */
 }
 
 input {
   width: 70%;
   padding: 15px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  border: 0px solid #f0dbe3; /* Change input border color */
+  margin-bottom: 40px;
+  display: block;
+  border: 0px solid #f0dbe3;
   border-radius: 8px;
-  font-size: 14px; /* Adjust font size */
+  font-size: 14px;
+  margin: auto; /* Center the input box */
 }
 
 button {
-  background-color: #ffffff; /* Change button background color */
+  background-color: #ffffff;
   color: #f0dbe3;
   padding: 15px;
   border: none;
   border-radius: 8px;
-  margin-left: 175px; /* Adjust margin-left to move the button */
   cursor: pointer;
-  font-size: 18px; /* Increase font size */
+  margin-bottom: 20px;
+  font-size: 18px;
   transition: background-color 0.3s;
+  display: block;
+  margin: auto; /* Center the button */
 }
 
 button:hover {
-  background-color: #ffffff; /* Change button hover color */
+  background-color: #ffffff;
 }
